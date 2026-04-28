@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Agendar Cita</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- ICONOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h2>World Dogs Pet 🐾</h2>
+
+    <a href="menu.html"><i class="fas fa-home"></i> Inicio</a>
+    <a href="mascota.html"><i class="fas fa-paw"></i> Mascotas</a>
+    <a href="cita.html"><i class="fas fa-calendar"></i> Agendar Cita</a>
+    <a href="servicios.html"><i class="fas fa-stethoscope"></i> Servicios</a>
+    <a href="historial.html"><i class="fas fa-file-medical"></i> Historial</a>
+    <a href="citas.html"><i class="fas fa-list"></i> Mis Citas</a>
+
+    <a href="index.html" class="logout">
+      <i class="fas fa-sign-out-alt"></i> Cerrar sesión
+    </a>
+  </div>
+
+  <!-- CONTENIDO -->
+  <div class="content">
+
+    <h2>Agendar Cita</h2>
+
+    <div class="cita-container">
+
+      <!-- FORMULARIO -->
+      <div class="cita-form">
+
+        <label>Seleccionar Mascota</label>
+        <select>
+          <option>Toby</option>
+        </select>
+
+        <label>Fecha</label>
+        <input type="date" value="2026-04-20">
+
+        <label>Hora</label>
+        <input type="time" value="10:00">
+
+        <label>Servicio</label>
+        <select>
+          <option>Consulta General</option>
+          <option>Vacunación</option>
+        </select>
+
+        <label>Observaciones (opcional)</label>
+        <textarea placeholder="Escribe alguna observación..."></textarea>
+
+        <div class="buttons">
+          <button class="cancel">Cancelar</button>
+          <button>Confirmar Cita</button>
+        </div>
+
+      </div>
+
+      <!-- RESUMEN -->
+      <div class="cita-resumen">
+
+        <h3>Resumen de la cita</h3>
+
+        <p><strong>Mascota:</strong> Toby</p>
+        <p><strong>Fecha:</strong> 20/04/2026</p>
+        <p><strong>Hora:</strong> 10:00 AM</p>
+        <p><strong>Servicio:</strong> Consulta General</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
